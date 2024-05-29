@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ardinyo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0; 
+            font-family: 'Montserrat', sans-serif; 
+        }
+
+        .navbar {
+            background-color: #f8f9fa; 
+            width: 100%; 
+            position: fixed; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        .navbar-brand img {
+            width: 60px; 
+            height: 60px;
+        }
+
+        .navbar-nav {
+            width: 100%; 
+            justify-content: space-around; 
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.5s ease;
+            color: black; 
+            font-weight: 600; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: orange !important;
+        }
+
+        .content {
+            margin-top: 70px; 
+            padding: 20px; 
+        }
+
+        .about-section {
+            text-align: center; 
+            margin-bottom: 50px; 
+        }
+
+        .about-section img {
+            width: 100%;
+            height: auto;
+            max-height: 500px; 
+            object-fit: cover; 
+            margin-bottom: 30px; 
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem; 
+            margin-bottom: 20px; 
+        }
+
+        .about-section p {
+            font-size: 1.2rem; 
+            line-height: 1.6; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://imagizer.imageshack.com/img922/1751/EZ8nR2.png" alt="Ardinyo Logo">
+            Ardinyo
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="extra.html">Extra</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="about-section">
+            <img src="https://media.licdn.com/dms/image/C5622AQE0bFytQ2Z4Xw/feedshare-shrink_800/0/1632148606596?e=2147483647&v=beta&t=fxGUYYwFmbFwnMK_RLbkpQZrVrgSbLb3Ei17LJIJqqs" alt="About Image">
+            <h1>About Ardinyo</h1>
+            <p>At Ardinyo, we are dedicated to providing our customers with the highest quality products that blend innovation with practicality. Founded in 2021, Ardinyo started with a vision to make everyday life easier and more enjoyable through our unique range of products. Our mission is to continuously improve and expand our offerings to meet the diverse needs of our customers.</p>
+            <p>We believe in the power of creativity and innovation, and our team works tirelessly to bring the best products to the market. From home gadgets to beauty and tech accessories, Ardinyo is committed to excellence in every aspect of our business.</p>
+            <p>Our values are rooted in customer satisfaction, quality, and sustainability. We strive to make a positive impact on the world by offering products that are not only functional but also environmentally friendly. Join us on our journey to make a difference, one product at a time.</p>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p style="font-size: 0.8rem;">&copy; 2023 Ardinyo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

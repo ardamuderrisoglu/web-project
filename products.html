@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Ardinyo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0; 
+            font-family: 'Montserrat', sans-serif; 
+        }
+
+        .navbar {
+            background-color: #f8f9fa; 
+            width: 100%; 
+            position: fixed; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        .navbar-brand img {
+            width: 50px; 
+            height: 50px;
+        }
+
+        .navbar-nav {
+            width: 100%; 
+            justify-content: space-around; 
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.5s ease;
+            color: black; 
+            font-weight: 600; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: orange !important;
+        }
+
+        .content {
+            margin-top: 70px; 
+            padding: 20px; 
+        }
+
+        .product-card {
+            margin-bottom: 30px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            max-height: 300px; 
+            object-fit: cover; 
+        }
+
+        .product-card .card-body {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://imagizer.imageshack.com/img922/1751/EZ8nR2.png" alt="Ardinyo Logo">
+            Ardinyo
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="extra.html">Extra</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1272/product/media/images/prod/SPM/PIM/20240424/14/450a6a60-734c-348f-86ab-9887ebf001ed/1_org_zoom.jpg" class="card-img-top" alt="Folding Eyebrow Razor">
+                        <div class="card-body">
+                            <h5 class="card-title">Folding Eyebrow Razor</h5>
+                            <p class="card-text">Precision and easy-to-use folding eyebrow razor.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1196/product/media/images/prod/SPM/PIM/20240306/16/ccf50b9e-4570-351f-a51c-e235e8748bf2/1_org_zoom.jpg" class="card-img-top" alt="Chocolate Scented Notebook">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Scented Notebook</h5>
+                            <p class="card-text">Enjoy taking notes with the unique chocolate scent.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1148/product/media/images/prod/SPM/PIM/20240126/16/37a2640e-d167-3d03-a32a-d951e54bef59/1_org_zoom.jpg" class="card-img-top" alt="Rainbow Pattern Cat Toy">
+                        <div class="card-body">
+                            <h5 class="card-title">Rainbow Pattern Cat Toy</h5>
+                            <p class="card-text">Your cat's favorite toy with a fun and colorful design.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1149/product/media/images/prod/SPM/PIM/20240126/17/d057f579-c3c2-37e1-88b9-b08d4f2783a5/1_org_zoom.jpg" class="card-img-top" alt="Facial Moisturizer Device">
+                        <div class="card-body">
+                            <h5 class="card-title">Facial Moisturizer Device</h5>
+                            <p class="card-text">Keep your skin hydrated with this easy-to-use facial moisturizer device.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1147/product/media/images/prod/SPM/PIM/20240126/17/3177fc7b-09d5-3997-a64a-261671f17c75/1_org_zoom.jpg" class="card-img-top" alt="Desktop Phone Holder">
+                        <div class="card-body">
+                            <h5 class="card-title">Desktop Phone Holder</h5>
+                            <p class="card-text">Convenient and stable holder for your phone on your desk.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-card">
+                    <div class="card">
+                        <img src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty1098/product/media/images/prod/SPM/PIM/20231220/22/cfee2cf8-78bc-3197-86ee-020dd20a1560/1_org_zoom.jpg" class="card-img-top" alt="Suede Phone Screen Cleaner">
+                        <div class="card-body">
+                            <h5 class="card-title">Suede Phone Screen Cleaner</h5>
+                            <p class="card-text">Keep your phone screen spotless with this suede cleaner.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p style="font-size: 0.8rem;">&copy; 2023 Ardinyo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
